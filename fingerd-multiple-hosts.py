@@ -24,7 +24,7 @@ def justify(num, string):
 	else:
 		return " " * (- num - len(string)) + string
 
-# Takes a line from finger and inserts hostname, also checks avious sizes for justification
+# Takes a line from finger, makes it into a list, and inserts hostname, also checks various sizes for justification
 def fixline(line, hostname):
 	userlist = line.split()
 	
